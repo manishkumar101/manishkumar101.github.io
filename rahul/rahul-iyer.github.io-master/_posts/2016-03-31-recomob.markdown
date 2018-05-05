@@ -1,0 +1,28 @@
+---
+title: "RecoMob : Opinion Mining for Product Recommendation"
+layout: post
+date: 2016-03-31
+tag: [natural langauge processing, deep learning]
+<!-- image: https://koppl.in/indigo/assets/images/jekyll-logo-light-solid.png -->
+<!-- headerImage: true -->
+projects: true
+<!-- hidden: true # don't count this post in blog pagination -->
+description: "Extract sentiment analysis and a recommendation engine for mobile reviews"
+category: project
+author: rahuliyer
+externalLink: false
+---
+
+<!-- ![Screenshot](https://raw.githubusercontent.com/sergiokopplin/indigo/gh-pages/assets/screen-shot.png) -->
+
+<!-- Example of project - Indigo Minimalist Jekyll Template - [Demo](http://sergiokopplin.github.io/indigo/). This is a simple and minimalist template for Jekyll for those who likes to eat noodles. -->
+You can get code [Here](https://github.com/rahul-iyer/OpinionMiningForProductEnhancement)
+Paper can be found [Here](http://ieeexplore.ieee.org/document/8117687/)
+---
+
+The project was aimed at helping the manufactures to improve their products by getting aspect based sentiment from reviews.
+- Used Recursive Neural Tensor Network with Word Vectors.
+- Used StanfordCoreNLP toolkit and its dependency parsing framework to extract the aspects and sentiment associated with them by formulating rules.
+- Also analyzed how reviews of the product fare over the time.
+- Used a k-NN for recommending products to the user based on specific aspects.
+
